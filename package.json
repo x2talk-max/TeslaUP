@@ -1,0 +1,17 @@
+{
+  "name": "teslaup",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Capacitor iOS shell for TeslaUP. Loads a remote site when CAPACITOR_SERVER_URL is set at sync time.",
+  "scripts": {
+    "ios:sync": "cap sync ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "8.5.2",
+    "@capacitor/ios": "8.5.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.2",
+    "typescript": "5.9.2"
+  }
+}
