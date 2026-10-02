@@ -18,6 +18,9 @@ if (serverUrl) {
   config.server = {
     url: serverUrl,
     cleartext: serverUrl.startsWith('http://'),
+    // Exact hosts only. Capacitor matches component-for-component, so these
+    // keep teslaup.shop and the live page host inside the WebView.
+    allowNavigation: ['teslauptest.grok.me', 'teslaup.shop'],
   };
 }
 

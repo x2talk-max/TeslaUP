@@ -1,0 +1,14 @@
+{
+	"appId": "com.teslaup.app",
+	"appName": "TeslaUP",
+	"webDir": "www",
+	"server": {
+		"url": "https://teslaup.shop",
+		"cleartext": false,
+		"allowNavigation": [
+			"teslauptest.grok.me",
+			"teslaup.shop"
+		]
+	},
+	"packageClassList": []
+}
